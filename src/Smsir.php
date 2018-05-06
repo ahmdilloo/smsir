@@ -1,6 +1,6 @@
 <?php
 
-namespace phplusir\smsir;
+namespace phpluahmd\smsir;
 use GuzzleHttp\Client;
 
 class Smsir

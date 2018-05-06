@@ -1,10 +1,10 @@
 <?php
 
-namespace phplusir\smsir\Controllers;
+namespace phpluahmd\smsir\Controllers;
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\Route;
-use phplusir\smsir\Smsir;
-use phplusir\smsir\SmsirLogs;
+use phpluahmd\smsir\Smsir;
+use phpluahmd\smsir\SmsirLogs;
 
 
 class SmsirController extends Controller

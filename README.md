@@ -2,10 +2,10 @@
 
 <p align="center">Official Laravel Package for sms.ir</p>
 
-[![Latest Stable Version](https://poser.pugx.org/phplusir/smsir/v/stable)](https://packagist.org/packages/phplusir/smsir)
-[![Total Downloads](https://poser.pugx.org/phplusir/smsir/downloads)](https://packagist.org/packages/phplusir/smsir)
-[![Monthly Downloads](https://poser.pugx.org/phplusir/smsir/d/monthly)](https://packagist.org/packages/phplusir/smsir)
-[![License](https://poser.pugx.org/phplusir/smsir/license)](https://packagist.org/packages/phplusir/smsir)
+[![Latest Stable Version](https://poser.pugx.org/phpluahmd/smsir/v/stable)](https://packagist.org/packages/phpluahmd/smsir)
+[![Total Downloads](https://poser.pugx.org/phpluahmd/smsir/downloads)](https://packagist.org/packages/phpluahmd/smsir)
+[![Monthly Downloads](https://poser.pugx.org/phpluahmd/smsir/d/monthly)](https://packagist.org/packages/phpluahmd/smsir)
+[![License](https://poser.pugx.org/phpluahmd/smsir/license)](https://packagist.org/packages/phpluahmd/smsir)
 [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FTrueMoein%2Fsmsir.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FTrueMoein%2Fsmsir?ref=badge_shield)
 
 
@@ -21,16 +21,16 @@ Hi, if you have an account in sms.ir, you can use this package for laravel
 How to install:
 -------------
 
-    composer require phplusir/smsir
+    composer require phpluahmd/smsir
     php artisan vendor:publish
 
 > **Setup:**
 
 add this line to your app.php providers:
-phplusir\smsir\SmsirServiceProvider::class,
+phpluahmd\smsir\SmsirServiceProvider::class,
 
 and add this line to your app.php aliases:
-'Smsir' => phplusir\smsir\SmsirFacade::class,
+'Smsir' => phpluahmd\smsir\SmsirFacade::class,
 
 
 > After publish the package files you must open smsir.php in config folder and set the api-key, secret-key and your sms line number.

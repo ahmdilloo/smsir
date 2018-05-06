@@ -1,5 +1,5 @@
 <?php
-namespace phplusir\smsir;
+namespace phpluahmd\smsir;
 use Illuminate\Support\Facades\Facade;
 
 class SmsirFacade extends Facade
