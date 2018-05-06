@@ -1,12 +1,12 @@
 {
-    "name": "phplusir/smsir",
-    "description": "Official Sms.ir Laravel Package",
+    "name": "phplusir/smsir-ahmd",
+    "description": "unOfficial Sms.ir Laravel Package",
     "keywords": ["laravel", "sms", "پیامک", "اس ام اس", "sendsms", "notifacation", "sms.ir"],
     "license": "MIT",
     "authors": [
         {
-            "name": "moein.alizadeh",
-            "email": "moein.alizade@gmail.com"
+            "name": "ahmd",
+            "email": "ahmad.illoo7419@gmail.com"
         }
     ],
     "autoload": {
